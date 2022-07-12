@@ -1,0 +1,152 @@
+body {
+    background: gray;  
+    padding-top: 24px;
+    font-family:'Times New Roman', Times, serif;
+}
+.info {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background: rgb(200, 123, 123);
+   /* box-shadow: rgb(77, 47, 52) 5px 0px 19px 10px; */
+   color: black;
+   line-height: 0.5px;
+   position: relative;
+   top: -156px;
+   right: -205px;
+  padding:17px;
+  border-radius: 20px;
+  width: 564px;
+}
+
+.hobby {
+/* box-shadow:rgb(40, 39, 39) 5px 0px 19px 10px; */
+background: rgb(227, 154, 154);
+border-radius: 20px;
+color: black;
+padding: 15px 2px; /*ширина объекта(формы)*/
+/* padding-left: 2px; */
+/* padding-top: 15px; */
+/* line-height: 1px; высота отступа от слов*/
+position: relative;
+top: -150px;
+}
+
+.work{
+background: rgb(229, 180, 180);
+border-radius: 20px;
+color: black;
+/* padding-left: 2px; */
+padding: 15px; /*ширина объекта(формы)*/
+padding-top: 15px; /*отступ сврху*/
+position: relative;
+top: -144px;
+/* line-height: 1px; высота отступа от слов*/
+     }
+     .img{
+   width: 200px;
+   border-radius: 20px;
+     }
+
+     .menu {
+      font-size:18px;
+      text-indent: -80px;
+      height: 100%;
+      width: 170px;
+      position: fixed; /*позиционирование*/
+      z-index: 1;
+      top: 0px;
+      /* left: 0px; */
+      background-color: rgb(117, 81, 81);
+      color:rgb(199, 206, 212);
+      overflow-x:scroll;
+      /* padding-top: 0px; */
+      font-family:'Times New Roman', Times, serif;
+      padding:7px;
+      padding-right:1px;     
+  }
+
+  .btn {
+    box-sizing:content-box;
+    display:inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    /* color: rgb(8, 1, 1); Белый цвет текста */
+    padding: 20px 14px 10px 100px;  /*Поля вокруг текста*/
+    text-decoration: none; /*Убираем подчёркивание*/
+    border-radius: 20px; /*Скругляем уголки */
+    /* padding-left: 100px; */
+    /* padding-right: 14px; */
+    width: 51px;
+   }
+   .btn:hover{
+    opacity: 0.8;
+    color: rgb(35, 119, 119); }
+
+   /* .cnopka {
+    position: relative;
+    top:-132px;
+    background: rgb(208, 18, 18);
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: inherit;
+   }
+   .cnopka:hover {
+    opacity: 0.8;
+    color: rgb(170, 114, 95);
+    } */
+
+   .nav p {
+    position:relative;
+    left: 79px;
+   }
+/* .links {
+  position:relative;
+  top:-138px;
+  padding: 5px 5px;
+  border-radius: 20px;
+  background: darkgrey;
+} */
+.form h2 {
+  text-align: center;
+ }
+
+.form-row {
+  margin-bottom: 10px;
+  
+
+}
+
+.form-row .form-group {
+  display: flex;
+  margin-right: 20px;
+  width: 50%;
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+ .form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f
+ }
+
+ .form-group input,
+ .form-group textarea {
+  width:100%;
+  box-sizing: border-box;
+  border:none;
+  background: white;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding:15px 0 10px;
+  /* position: relative;
+  left: 184px;
+  border-radius: 15px; */
+  outline: none;
+  font-family: inherit;
+ }
+
+
